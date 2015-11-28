@@ -1,13 +1,24 @@
-# Site settings
-title: 코딩고딩
-email: bae-unidev@nate.com
-description: >
-  코딩하는 고딩의 블로그입니다. 아는 것은 적지만, 꾸준하게 글을 써보겠습니다!
-  방문해주신 모든 분들! 감사합니다!
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://bae-unidev.github.io" # the base hostname & protocol for your site
-twitter_username: baeunidev
-github_username:  bae-unidev
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
 
-# Build settings
-markdown: kramdown
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            uniDev
+tagline:          "uniDev's blog"
+description: >
+  Hyeonseung Bae
+  Back-end Infrastructure.
+url:              http://bae-unidev.github.io
+baseurl:          /
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/bae-unidev
