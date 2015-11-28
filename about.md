@@ -4,27 +4,24 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hi. I'm Hyeonseung Bae, Back-end Infrastructure.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+# Profile
 
-There are currently two themes built on Poole:
+* Software Maestro 5th at MSIP (2014. 6. ~ 2015. 11.)
+* Sogang University Art & Technology (2016 3. ~)
+* Seoul, Korea
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+# Project
+* [OpenNUI](opennui.org) - Image Processing, Integration other vender sensors.
+* GAMGR - ranking leaderboard, payment, analytics for Indi-game developer.
+* [VALET](http://valet.devsusu.info) - Visual Analytics Law Enforcement Toolkit at Purdue University
+* QuestHub - Korea Olympiad in Informatics 3th prize.
+* [Visual Studio Code](http://github.com/Microsoft/vscode) - Contribution (very small)
+* [GimmeLand](https://play.google.com/store/apps/details?id=com.BeYo.GimmeLandV2&hl=ko) - Android Mobile Game
 
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+# Awards
+* Purdue University VACCINE lab Outstanding Student Contribution
+* Purdue University and FKII Business Plan Competition 1st prize.
+* Korea Olympiad in Informatics 3th prize.
