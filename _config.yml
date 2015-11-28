@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            uniDev
 tagline:          "uniDev's blog"
 description: >
-  Hyeonseung Bae
+  Hyeonseung Bae<br/>
   Back-end Infrastructure.
 url:              http://bae-unidev.github.io
 baseurl:          /
