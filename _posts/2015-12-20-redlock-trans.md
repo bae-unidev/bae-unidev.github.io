@@ -7,8 +7,8 @@ title: Redlock 토픽 번역
 원 글은 [RedisLab의 분산 Lock에 대한 Topic](http://redis.io/topics/distlock) 에서 확인하실 수 있습니다.
 
 ---
-# Distributed locks with Redis
-# Redis로 구현하는 분산 락
+## Distributed locks with Redis
+## Redis로 구현하는 분산 락
 
 Distributed locks are a very useful primitive in many environments where different processes must operate with shared resources in a **mutually** **exclusive** way.
 
