@@ -30,18 +30,19 @@
  *
  * Update the foundational and global aspects of the page.
  */
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", "Apple SD Gothic Neo" ,"Nanum Gothic", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 
@@ -65,7 +66,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 16rem;
     text-align: left;
   }
 }

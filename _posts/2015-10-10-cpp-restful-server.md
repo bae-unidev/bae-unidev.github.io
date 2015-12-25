@@ -6,6 +6,6 @@ title: FCGI와 C++을 이용한 Restful 서버 구현
 이때 사용한 PPT 발표자료 입니다.
 
 잘못된 부분, 개선하면 좋을 것 같은 부분을 저에게 알려주시면 바로 PPT에 반영하도록 하겠습니다.
-bae-unidev@nate.com으로 연락 주세요!
+bae-unidev@nate.com 으로 연락 주세요!
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/4lG8zVAJ7kenn9" width="100%" height="500px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ssuserfc493b/fcgi-c-restful-51435889" title="FCGI, C++로 Restful 서버 개발" target="_blank">FCGI, C++로 Restful 서버 개발</a> </strong> from <strong><a href="//www.slideshare.net/ssuserfc493b" target="_blank">배현승</a></strong> </div>
