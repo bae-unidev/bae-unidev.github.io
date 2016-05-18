@@ -115,7 +115,7 @@ Redis가 알려드리는 아래의 스크립트는 이미 키가 존재하고 �
 
 This is accomplished by the following Lua script:
 
-이는 다음 루아 스크립트에 의해 이루어 집니다.
+이는 다음 루아 스크립트에 의해 이루어 집니다:
 
 ```lua
 if redis.call("get",KEYS[1]) == ARGV[1] then
