@@ -8,13 +8,14 @@ title: 안드로이드 롤리팝 노티피케이션 아이콘 대응
 그래서 쉽게 이런 문제를 알 방법이 없었습니다.(ㅠㅠ) 제 경우엔 개발기기가 넥서스(5.0)인 관계로 노티피케이션 이미지가 SDK 타겟에 따라 다르게 설정되어야 함을 빠르게 알았습니다.
 
 롤리팝 업데이트로 인해서 머터리얼 디자인 스타일의 알림으로 변경되었습니다. 그래서
+
 1. 흰색과 투명색의 이미지만 사용하여야 합니다. 아이콘에 색상이 입혀져 있다면 이는 전부 안드로이드 시스템에 의해 무시되고 흰색으로 보이게 됩니다.
 2. setColor를 통해 배경색(악센트 컬러)을 정해야 하므로 흰색 아이콘과 어울리는 배경색을 지정해 주어야 합니다.
 
 그래서 롤리팝과 동시에 하위 버젼을 대응하기 위한 여기 좋은 해결 방법이 있습니다.
 http://stackoverflow.com/questions/28387602/notification-bar-icon-turns-white-in-android-5-lollipop
 
-```JAVA
+``` java
 public void onMessageReceived(...) {
   NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
     .setSmallIcon(getNotificationIcon())
@@ -24,6 +25,7 @@ public void onMessageReceived(...) {
 }
 int getNotificationIcon() {
   return android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP ? R.drawable.ic_white_icon : R.drawable.ic_launcher_icon;
-}```
+}
+```
 
-저는 이렇게 사용합니다. SDK 22에서 테스트되었습니다. 
+저는 이렇게 사용합니다. SDK 22에서 테스트되었습니다.
