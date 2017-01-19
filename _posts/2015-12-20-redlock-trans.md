@@ -127,7 +127,7 @@ end
 
 This is important in order to avoid removing a lock that was created by another client. For example a client may acquire the lock, get blocked in some operation for longer than the lock validity time (the time at which the key will expire), and later remove the lock, that was already acquired by some other client. Using just DEL is not safe as a client may remove the lock of another client. With the above script instead every lock is “signed” with a random string, so the lock will be removed only if it is still the one that was set by the client trying to remove it.
 
-다른 클라이언트로부터 생성된 락(다른 클라이언트가 점유하고 있는 자원)을 해제하는 걸 피하는 것은 중요합니다. 예를 들어
+다른 클라이언트로부터 생성된 락(다른 클라이언트가 점유하고 있는 자원)을 함부로 해제하는 걸 피해야 합니다. 예를 들어
 
 
 What should this random string be? I assume it’s 20 bytes from /dev/urandom, but you can find cheaper ways to make it unique enough for your tasks. For example a safe pick is to seed RC4 with /dev/urandom, and generate a pseudo random stream from that. A simpler solution is to use a combination of unix time with microseconds resolution, concatenating it with a client ID, it is not as safe, but probably up to the task in most environments.
